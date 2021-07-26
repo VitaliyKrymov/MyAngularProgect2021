@@ -8,7 +8,7 @@ import {UserService} from "./services/user.service";
 export class AppComponent {
   title = 'MyAngularProgect2021';
 
-  constructor(private userService:UserService) {
-         this.userService.doSomeStuff();
+  constructor() {
+
   }
 }
