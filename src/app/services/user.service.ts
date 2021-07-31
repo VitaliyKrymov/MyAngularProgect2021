@@ -11,6 +11,6 @@ export class UserService {
   constructor(private HttpClient:HttpClient) {
   }
   getUsers() :Observable<IUser[]> {
-this.HttpClient.get<IUser[]>('https://jsonplaceholder.typicode.com/users')
+    return this.HttpClient.get<IUser[]>('https://jsonplaceholder.typicode.com/users');
   }
 }
