@@ -9,11 +9,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyAngularProgect2021';
-  users =[
-    {name:'vasia',age:'23',status:false},
-    {name:'tania',age:'63',status:true},
-    {name:'vania',age:'33',status:false},
-    {name:'valia',age:'13',status:true},
-    {name:'vadim',age:'43',status:false},
-  ];
+   vasia= 'Vitaliy, lern Angular hard!'
+  // users =[
+  //   {name:'vasia',age:'23',status:false},
+  //    {name:'tania',age:'63',status:true},
+  //   {name:'vania',age:'33',status:false},
+  //   {name:'valia',age:'13',status:true},
+  //   {name:'vadim',age:'43',status:false},
+  // ];
 }
+console.log('URRRA');
+
