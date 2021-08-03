@@ -7,9 +7,8 @@ import {IUserModel} from "../models/userModel";
   styleUrls: ['./user.component.scss']
 })
 export class UserComponent implements OnInit {
-
   @ Input()
-  userObj:IUserModel = {name:'',age:0,status:false};
+  userObj:IUserModel;
   constructor() { }
 
   ngOnInit(): void {

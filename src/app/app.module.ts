@@ -9,8 +9,8 @@ import { UserComponent } from './user/user.component';
 @NgModule({
   declarations: [
     AppComponent,
-    UsersComponent,
     UserComponent,
+    UsersComponent,
 
   ],
   imports: [
